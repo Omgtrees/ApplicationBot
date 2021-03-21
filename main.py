@@ -16,7 +16,7 @@ async def on_member_join(member):
 
   await member.create_dm() 
   await member.dm_channel.send('IGN:')
-  
 
+#ss
 
 client.run(os.getenv('TOKEN'))
